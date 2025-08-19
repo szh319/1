@@ -1,0 +1,42 @@
+{
+  "package": "com.app.zh",
+  "name": "zh",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "minPlatformVersion": 1000,
+  "icon": "/common/logo.png",
+  "deviceTypeList": [
+    "watch"
+  ],
+  "features": [
+	{
+		"name": "system.router"
+	},
+	{
+		"name": "system.file"
+	},
+	{
+		"name": "system.storage"
+	},
+	{
+		"name": "system.vibrator"
+	}
+],
+  "config": {
+    "logLevel": "off",
+    "designWidth": "device-width"
+  },
+  "router": {
+    "entry": "pages/reader",
+    "pages": {
+      "pages/reader": {
+        "component": "reader"
+      }
+    }
+  },
+  "minAPILevel": 1,
+  "display": {
+    "backgroundColor": "#EFC3CA"
+  },
+	"permissions": []
+}
